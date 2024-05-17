@@ -29,7 +29,6 @@ while True:
 
         # Hitung jumlah jari yang terbuka
         fingerCount = fingers.count(1)
-        cv2.putText(frame, str(fingerCount), (50, 200), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
        
         
         # Tambahkan penanganan penutupan tangan
